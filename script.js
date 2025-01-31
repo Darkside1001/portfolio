@@ -1,10 +1,5 @@
-// Smooth scroll pour les liens du menu
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("name").textContent = "John Doe";
+    document.getElementById("title").textContent = "Développeur Full Stack";
+    document.getElementById("contact").textContent = "johndoe@example.com";
 });

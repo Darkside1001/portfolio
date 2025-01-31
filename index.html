@@ -3,79 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio d'Ekofo Botay Isaac, BTS SLAM 2">
-    <title>Portfolio d'Ekofo Botay Isaac</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - [Ton Nom]</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <div class="container">
-            <h1>Bienvenue sur le Portfolio d'Ekofo Botay Isaac</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Bienvenue sur mon Portfolio</h1>
     </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>À propos de moi</h2>
-            <p>Je suis Isaac Ekofo Botay, étudiant en BTS SLAM 2, passionné par le développement web et la programmation.</p>
-            <p>Je travaille sur différents projets utilisant HTML, CSS, JavaScript, et je suis constamment en train de développer mes compétences dans le domaine.</p>
+    <section class="profile">
+        <img src="profile.jpg" alt="Photo de profil">
+        <h2 id="name">[Ton Nom]</h2>
+        <p id="title">Développeur Web - Passionné de Technologie</p>
+    </section>
+    <section class="projects">
+        <h2>Mes Projets</h2>
+        <div class="project-card" id="project1">
+            <h3>Projet 1</h3>
+            <p>Description du projet.</p>
+        </div>
+        <div class="project-card" id="project2">
+            <h3>Projet 2</h3>
+            <p>Description du projet.</p>
         </div>
     </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Mes compétences</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Git et GitHub</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projets</h2>
-            <div class="project">
-                <h3>Projet 1 : Portfolio personnel</h3>
-                <p>Un projet où j'ai créé ce portfolio pour afficher mes compétences et projets.</p>
-            </div>
-            <div class="project">
-                <h3>Projet 2 : Application de gestion de tâches</h3>
-                <p>Une application web permettant de gérer des tâches, créer, modifier et supprimer des listes de tâches.</p>
-            </div>
-            <!-- Ajoute d'autres projets ici -->
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Tu peux me contacter par email : <a href="mailto:isaac@example.com">isaac@example.com</a></p>
-            <p>Ou via mes réseaux sociaux :</p>
-            <ul>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-            </ul>
-        </div>
-    </section>
-
     <footer>
-        <p>&copy; 2025 Ekofo Botay Isaac. Tous droits réservés.</p>
+        <p>Contact : <span id="contact">[tonemail@example.com]</span></p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

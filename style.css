@@ -1,195 +1,33 @@
-/* Reset du style par défaut */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Définir les variables pour faciliter la gestion des couleurs */
-:root {
-    --primary-color: #4CAF50; /* Vert */
-    --secondary-color: #333;  /* Gris foncé */
-    --background-color: #f7f7f7; /* Gris clair */
-    --white-color: #ffffff; 
-    --border-radius: 8px;
-    --transition-speed: 0.3s;
-}
-
-/* Style général */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--background-color);
-    color: #444;
-    line-height: 1.6;
-    padding: 0;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    text-align: center;
 }
 
-/* Conteneur principal */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* En-tête */
 header {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    padding: 40px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #2C6B31; /* Une petite touche */
-}
-
-header h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-}
-
-/* Navigation */
-nav ul {
-    list-style: none;
-    margin-top: 20px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: var(--white-color);
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 500;
-    transition: all var(--transition-speed);
-}
-
-nav ul li a:hover {
-    color: #FFEB3B; /* Jaune lumineux */
-    text-decoration: underline;
-}
-
-/* Sections */
-section {
-    padding: 80px 0;
-}
-
-h2 {
-    font-size: 2em;
-    color: var(--primary-color);
-    text-align: center;
-    margin-bottom: 40px;
-    font-weight: 700;
-}
-
-p {
-    font-size: 1.2em;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px auto;
-}
-
-/* Liste des compétences */
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-ul li {
-    background-color: var(--white-color);
-    padding: 15px 30px;
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 1.1em;
-    color: var(--secondary-color);
-    transition: all var(--transition-speed);
-    cursor: pointer;
-}
-
-ul li:hover {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    transform: translateY(-5px);
-}
-
-/* Projets */
-.project {
-    background-color: var(--white-color);
-    padding: 30px;
-    margin: 20px 0;
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: all var(--transition-speed);
-}
-
-.project h3 {
-    font-size: 1.8em;
-    color: var(--primary-color);
-    margin-bottom: 15px;
-}
-
-.project p {
-    font-size: 1.1em;
-    color: #666;
-}
-
-/* Contact */
-#contact a {
-    color: var(--primary-color);
-    font-weight: bold;
-    text-decoration: none;
-    transition: all var(--transition-speed);
-}
-
-#contact a:hover {
-    color: #FFEB3B;
-}
-
-/* Pied de page */
-footer {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    text-align: center;
+    background: #ffffff;
     padding: 20px;
-    margin-top: 40px;
-    border-top: 3px solid #2C6B31;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border-radius: 10px;
 }
 
-footer p {
-    font-size: 1.2em;
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 
-/* Animation pour un défilement fluide */
-html {
-    scroll-behavior: smooth;
+.project-card {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
-/* Responsivité */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin-bottom: 15px;
-    }
-
-    .project {
-        margin: 20px 0;
-        padding: 20px;
-    }
+.project-card:hover {
+    transform: scale(1.05);
 }
