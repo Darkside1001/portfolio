@@ -13,6 +13,7 @@ import { Contact } from './components/section/Contact'
 
 
 
+
 function App() {
   const [isLoaded,setIsLoaded]=useState(false);
   const [menuOpen,setMenuOpen]=useState(false);
@@ -38,6 +39,7 @@ function App() {
       <About />
       <Projects />  
       <Contact />
+      
      
      
     
