@@ -7,8 +7,10 @@ import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/section/Home';
 import { About } from './components/section/About';
 import { Projects } from './components/section/Projects';
-import { Contact } from './components/section/Contact'
+import { Contact } from './components/section/Contact';
 //import { NumPages } from './components/section/NumPages'
+//import { image} from './src/image'
+
 
 
 
@@ -39,6 +41,7 @@ function App() {
       <About />
       <Projects />  
       <Contact />
+      
       
      
      

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 
 const NumPages = () => {
-    const [pdfUrl, setPdfUrl] = useState("/cvisaac.pdf");
+    const [pdfUrl, setPdfUrl] = useState("./cvisaac.pdf");
 // Remplace par l'URL de ton fichier PDF
     const [NumPages, setNumPages] = useState(null)
 

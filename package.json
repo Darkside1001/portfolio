@@ -1,6 +1,6 @@
 {
   "name": "port-folio",
-  "homepage":"https://darkside1001.github.io/port-folio/",
+  "homepage": "https://darkside1001.github.io/port-folio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeoloy":"npm run build",
+    "predeoloy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.11",

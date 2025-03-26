@@ -30,7 +30,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="text justify-between items-center">
-                            <a href="# " 
+                            <a href="#cvisaac.jpg" 
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                             >
                                 {" "}
