@@ -12,3 +12,4 @@ createRoot(document.getElementById('root')).render(
     
 
 )
+//createRoot(document.getElementById('root')).render(<App />) // this is the same as th
