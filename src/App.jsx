@@ -10,8 +10,7 @@ import { Projects } from './components/section/Projects';
 import { Contact } from './components/section/Contact';
 //import { NumPages } from './components/section/NumPages'
 //import { image} from './src/image'
-
-
+//import { Boule }  from './components/Boule'
 
 
 
@@ -41,6 +40,7 @@ function App() {
       <About />
       <Projects />  
       <Contact />
+      
       
       
      
