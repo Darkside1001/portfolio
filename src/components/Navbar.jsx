@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import cvisaac from "../assets/cvisaac.jpg";
 
+
 export const Navbar = ({ menuOpen, setMenuOpen,}) => {
     useEffect (() => {
         document.body.style.overflow = menuOpen ? 'hidden' : "";
@@ -60,6 +61,14 @@ export const Navbar = ({ menuOpen, setMenuOpen,}) => {
                         <span className="text-blue-500/70">contact</span>{""} {""} 
                         
                     </a>
+                    <a 
+                    href={cvisaac}
+                    className="text-gray-300 hove :tex-white tansition-colors "
+                    >
+                        <span className="text-blue-500/70">veille</span>{""} {""} 
+                        
+                    </a>
+                  
 
 
                 </div>

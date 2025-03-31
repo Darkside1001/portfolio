@@ -6,9 +6,9 @@ export const About = () => {
         "Vue",
         "TypeScript",
         "Tailwindcss",
-        "Svelte",
+        "Html",
     ];
-    const backendSkills = [  "Node.js","Python","AWS","MongoDB","GraphQl", ];
+    const backendSkills = [  "Node.js","Python","AWS","MongoDB","PHP", ];
 
 
 
@@ -25,8 +25,7 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/5 border hover:-translate-y-1 transition-all">
                     <p className="to-cyan-600 mb-0">
-                        passionate developer with expertise in building scalable web
-                        application and creating innovante solutions.
+                    Encours de spécialisé dans la création d’applications web performantes et de solutions innovantes. Toujours en quête de nouvelles technologies pour concevoir des expériences optimisées afin de répondre aux besoins de mes clients.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -71,7 +70,7 @@ export const About = () => {
                             <li>
                                 <strong>Estiam Paris</strong>(2024-2025)
                             </li>
-                            <li>Relevent coursework: Data Structures, Web Development, Cloud Computing, and Cybersecurity</li>
+                            <li>Structures de données, Développement web, Informatique en cloud et Cybersécurité.</li>
                             
                         </ul>
 
@@ -85,7 +84,7 @@ export const About = () => {
 
                                 <li> <strong> Apprentice devellopper at 42C </strong>(2024-2025)</li>
 
-                                <li>Developed and maintained microservices for cloud-based   </li>
+                                <li>Développement et maintenance de microservices pour des solutions basées sur le cloud. </li>
 
                             </div>
                         </div>
