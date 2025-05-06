@@ -1,4 +1,8 @@
 import fishesynthese from "/src/assets/fishesynthese.jpg";
+import equiz2 from "/src/assets/equiz2.jpg";
+import equiz1 from "/src/assets/equiz1.jpg";
+
+
 
 
 
@@ -35,6 +39,7 @@ export const Projects = () => {
                             <a href="#cvisaac.jpg" 
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                             >
+
                                 {" "}
                                 View Project  🔜{" "}
                             </a>
@@ -59,11 +64,23 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="text justify-between items-center">
-                            <a href="#" 
+                            <a href={equiz1}
+                               
+
                             className="text-blue-400 hover:text-blue-300 transition-colors my-6"
                             >
                                 {" "}
-                                View Project  🔜{" "}
+                                E-QUIZ DOCS1  🔜{" "}
+                            </a>
+                        </div>
+                        <div className="text justify-between items-center">
+                            <a href={equiz2}
+                               
+
+                            className="text-blue-400 hover:text-blue-300 transition-colors my-6"
+                            >
+                                {" "}
+                                E-QUIZ DOCS2  🔜{" "}
                             </a>
                         </div>
                     </div>
@@ -87,7 +104,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="text justify-between items-center">
-                            <a href="#" 
+                            <a href="" 
                             className="text-blue-400 hover:text-blue-300 transition-colors my-6"
                             >
                                 {" "}

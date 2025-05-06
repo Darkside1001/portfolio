@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import cvisaac from "../assets/cvisaac.jpg";
+import VeilleTechnologique from "./section/VeilleTechnologique";
 
 
 export const Navbar = ({ menuOpen, setMenuOpen,}) => {
@@ -61,13 +62,7 @@ export const Navbar = ({ menuOpen, setMenuOpen,}) => {
                         <span className="text-blue-500/70">contact</span>{""} {""} 
                         
                     </a>
-                    <a 
-                    href={cvisaac}
-                    className="text-gray-300 hove :tex-white tansition-colors "
-                    >
-                        <span className="text-blue-500/70">veille</span>{""} {""} 
-                        
-                    </a>
+                 
                   
 
 
