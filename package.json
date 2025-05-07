@@ -1,6 +1,6 @@
 {
-  "name": "port-folio",
-  "homepage": "https://darkside1001.github.io/port-folio",
+  "name": "portfolio",
+  "homepage": "https://github.com/Darkside1001/portfolio.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
