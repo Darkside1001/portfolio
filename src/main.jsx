@@ -12,5 +12,5 @@ createRoot(document.getElementById('root')).render(
 
   </StrictMode>
 
-  );
+  )
 //createRoot(document.getElementById('root')).render
