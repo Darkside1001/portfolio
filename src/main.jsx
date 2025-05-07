@@ -9,7 +9,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>
-    
 
-);
-//createRoot(document.getElementById('root')).render(<App />) // this is the same as th
+)
+;
