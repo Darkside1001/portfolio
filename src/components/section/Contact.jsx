@@ -35,7 +35,7 @@ export const Contact = () => {
     return (
         <section 
         id="Contact"
-        className="min-h-screens flex items-center justify-center py-40"
+        className="min-h-screens flex items-center justify-center py-30"
         >
             <div className="text-center z-4 px-50" >
                 <h2 className="text-5xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500/5 to-cyan-400 bg-clip-text text-transparent leading-right"> Get in touch</h2>

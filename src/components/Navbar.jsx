@@ -62,6 +62,13 @@ export const Navbar = ({ menuOpen, setMenuOpen,}) => {
                         <span className="text-blue-500/70">contact</span>{""} {""} 
                         
                     </a>
+                    <a 
+                    href="#Contact"
+                    className="text-gray-300 hove :tex-white tansition-colors "
+                    >
+                        <span className="text-blue-500/70">Veille</span>{""} {""} 
+                        
+                    </a>
                  
                   
 

@@ -18,12 +18,12 @@ export const Projects = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/5 hover:-transalte-y-1 hover:boder-bllue-500/30 hover:shadow-[à-0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all ">
-                        <h3 className="text-xl font-bold mb-2"> Quiz Platform</h3>
+                        <h3 className="text-xl font-bold mb-2"> E-QUIZ</h3>
                         <p className="text-grya-400 mb-4">
-                            write a somthings about quizz platform
+                        Une application web de quiz éducatif, de la conception à la mise en ligne, en utilisant React, TailwindCSS.
                         </p>
                         <div>
-                            {["React","Node.js","AWS","Docker"].map((tech,key) => (
+                            {["React","Node.js","Github",].map((tech,key) => (
                                <span 
                                key={key}
                                className="bg-blue-500/10 text-blue-500 py-1
@@ -49,9 +49,9 @@ export const Projects = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                     <div className="p-6 rounded-xl border border-white/5 hover:-transalte-y-1 hover:boder-bllue-500/30 hover:shadow-[à-0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all ">
-                        <h3 className="text-xl font-bold mb-2">DOcs</h3>
+                        <h3 className="text-xl font-bold mb-2">E/6</h3>
                         <p className="text-grya-400 mb-4">
-                            Documentations et code.
+                        L'épreuve prend appui sur deux réalisations professionnelles présentées par le candidate, chaque réalisation ayant été élaborée dans un environnement technologique .
                         </p>
                         <div>
                             {["React","Node.js","Html","Css",""].map((tech,key) => (
@@ -89,9 +89,9 @@ export const Projects = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                     <div className="p-6 rounded-xl border border-white/5 hover:-transalte-y-1 hover:boder-bllue-500/30 hover:shadow-[à-0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all ">
-                        <h3 className="text-xl font-bold mb-2"> Bibliotheque</h3>
+                        <h3 className="text-xl font-bold mb-2"> IA voyages</h3>
                         <p className="text-grya-400 mb-4">
-                            write a somthings about quizz platform
+                       Une application web intelligente qui, grâce à l’intelligence artificielle, propose des destinations de voyage personnalisées en fonction des préférences saisies par l’utilisateur.
                         </p>
                         <div>
                             {["html", "js", "css",].map((tech,key) => (
@@ -119,7 +119,7 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/5 hover:-transalte-y-1 hover:boder-bllue-500/30 hover:shadow-[à-0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all ">
                         <h3 className="text-xl font-bold mb-2"> E/5</h3>
                         <p className="text-grya-400 mb-4">
-                            write a somthings about quizz platform
+                        L’épreuve E5 du BTS SIO est un oral qui permet à l’étudiant de présenter son portfolio et sa fiche de synthèse, afin de mettre en valeur les compétences et les acquis développés tout au long de sa formation.
                         </p>
                         <div>
                             {["React","Node.js","AWS","Docker"].map((tech,key) => (

@@ -25,7 +25,8 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/5 border hover:-translate-y-1 transition-all">
                     <p className="to-cyan-600 mb-0">
-                    Encours de spécialisé dans la création d’applications web performantes et de solutions innovantes. Toujours en quête de nouvelles technologies pour concevoir des expériences optimisées afin de répondre aux besoins de mes clients.
+                    Actuellement en formation dans le développement web, je me spécialise dans la création d’applications performantes, modernes et sécurisées. Passionné par les nouvelles technologies, je suis toujours à la recherche de solutions innovantes pour offrir des expériences utilisateur optimisées et adaptées aux besoins réels.
+Mon expertise s'étend du frontend (React, Vue, TypeScript, TailwindCSS, HTML) au backend (Node.js, Python, AWS, MongoDB, PHP), avec un intérêt marqué pour les environnements cloud et la cybersécurité.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -79,12 +80,12 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                               <li> Apprentice develloper at Atelier image collée <strong>(2023-2024)</strong>  
+                               <li> Apprenti devellopeur à Atelier image collée <strong>(2023-2024)</strong>  
                                </li>
 
-                                <li> <strong> Apprentice devellopper at 42C </strong>(2024-2025)</li>
+                                <li> <strong> Apprentice devellopper à 42C </strong>(2024-2025)</li>
 
-                                <li>Développement et maintenance de microservices pour des solutions basées sur le cloud. </li>
+                                <li>Développement et création de web applications. </li>
 
                             </div>
                         </div>
